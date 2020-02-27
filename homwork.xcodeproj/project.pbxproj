@@ -36,7 +36,7 @@
 
 /* Begin PBXFileReference section */
 		3C5864EB23E9DBA00069B368 /* homwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = homwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C5864EE23E9DBA00069B368 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3C5864EE23E9DBA00069B368 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = homwork/AppDelegate.swift; sourceTree = SOURCE_ROOT; usesTabs = 0; };
 		3C5864F023E9DBA00069B368 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3C5864F223E9DBA00069B368 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3C5864F523E9DBA00069B368 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -303,7 +303,9 @@
 				3C5864F523E9DBA00069B368 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
+			path = homwork;
+			sourceTree = SOURCE_ROOT;
+			wrapsLines = 1;
 		};
 		3C5864F923E9DBA20069B368 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
